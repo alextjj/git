@@ -1,44 +1,50 @@
 
-# [git 命令整理](https://git-scm.com/docs/)
+# git 命令整理: https://git-scm.com/docs/
 
-## 1: [git useage](./1_useage.md)
+## 01: [git useage](./1_useage.md)
 
-## 2: [git clone](./2_clone.md)
+## 02: [git clone](./2_clone.md)
 
-## 3: [git init](./3_init.md)
+## 03: [git init](./3_init.md)
 
+## 04: [git add](./4_add.md)
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+## 05: [git mv](./5_mv.md)
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## 06: [git rm](./6_rm.md)
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+## 07: [git diff](./7_diff.md)
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+## 08: [git grep](./8_grep.md)
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+## 09: [git log](./9_log.md)
+
+## 10: [git show](./10_show.md)
+
+## 11: [git status](./11_status.md)
+
+## 12: [git branch](./12_branch.md)
+
+## 13: [git commit](./13_commit.md)
+
+## 14: [git merge](./14_merge.md)
+
+## 15: [git rebase](./15_rebase.md)
+
+## 16: [git reset](./16_reset.md)
+
+## 17: [git switch](./17_switch.md)
+
+## 18: [git tag](./18_tag.md)
+
+## 19: [git fetch](./19_fetch.md)
+
+## 20: [git pull](./20_pull.md)
+
+## 21: [git push](./21_push.md)
+
+## 22: [git bisect](./22_bisect.md)
+
+## 23: [git restore](./23_restore.md)
 
 
