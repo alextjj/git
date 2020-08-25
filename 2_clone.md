@@ -1,4 +1,5 @@
 # [git clone 克隆仓库:](https://git-scm.com/docs/git-clone) 
+        * git clone [--template=<template_directory>] [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror] [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>] [--dissociate] [--separate-git-dir <git dir>] [--depth <depth>] [--[no-]single-branch] [--no-tags] [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules] [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--filter=<filter>] [--] <repository> [<directory>]
 
 ## git clone < url > < dicName >
         * 这个命令是最基本的克隆命令，其可以从一个远程仓库中将Git仓库克隆岛本地.
@@ -6,7 +7,7 @@
         * 不省略则在本地创建的目录名即是设置的dicName值。
         * Git不只可以克隆远程仓库，也可以对本地的仓库进行克隆，但这并没有什么意义。
 
-## git clone --local < url >
+## git clone --local < localUrl > | git clone --l < localUrl >
         * 克隆本地仓库。
 
 ## git clone --quiet < url >
