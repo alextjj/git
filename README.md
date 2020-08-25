@@ -43,8 +43,9 @@
 
 ## 21: [git push](./21_push.md)
 
-## 22: [git bisect](./22_bisect.md)
+## 22: [git config](./22_config.md)
 
 ## 23: [git restore](./23_restore.md)
 
+## 24: [git bisect](./24_bisect.md)
 
