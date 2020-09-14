@@ -1,11 +1,11 @@
 
 # git 命令整理: https://git-scm.com/docs/
 
-## 01: [git useage](./1_useage.md)
+## 01: [git useage](https://github.com/alextjj/git/blob/master/01_useage.md)
 
-## 02: [git clone](./2_clone.md)
+## 02: [git clone](https://github.com/alextjj/git/blob/master/02_clone.md)
 
-## 03: [git init](./3_init.md)
+## 03: [git init](https://github.com/alextjj/git/blob/master/03_init.md)
 
 ## 04: [git add](./4_add.md)
 
