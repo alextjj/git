@@ -1,5 +1,14 @@
 # [git clone 克隆仓库:](https://git-scm.com/docs/git-clone) 
-        * git clone [--template=<template_directory>] [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror] [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>] [--dissociate] [--separate-git-dir <git dir>] [--depth <depth>] [--[no-]single-branch] [--no-tags] [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules] [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--filter=<filter>] [--] <repository> [<directory>]
+       git clone [--template=<template_directory>]
+	  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
+	  [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>]
+	  [--dissociate] [--separate-git-dir <git dir>]
+	  [--depth <depth>] [--[no-]single-branch] [--no-tags]
+	  [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]
+	  [--[no-]remote-submodules] [--jobs <n>] [--sparse]
+	  [--filter=<filter>] [--] <repository>
+	  [<directory>]
+
 
 ## git clone < url > < dicName >
         * 这个命令是最基本的克隆命令，其可以从一个远程仓库中将Git仓库克隆岛本地.
