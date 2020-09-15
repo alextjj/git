@@ -1,5 +1,7 @@
 
-# git 命令整理: https://git-scm.com/docs/
+# git 命令整理:
+    官方文档: https://git-scm.com/docs/
+    腾讯文档：https://cloud.tencent.com/developer/doc/1101
 
 ## 01: [git useage](https://github.com/alextjj/git/blob/master/01_useage.md)
 
