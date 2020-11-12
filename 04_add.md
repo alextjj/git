@@ -1,8 +1,12 @@
-# [git init  初始仓库:](https://git-scm.com/docs/git-init)
-    git init [-q | --quiet] [--bare] [--template=<template_directory>]
-	  [--separate-git-dir <git dir>] [--object-format=<format>]
-	  [-b <branch-name> | --initial-branch=<branch-name>]
-	  [--shared[=<permissions>]] [directory]
+# git init  初始仓库:
++ 官方文档: https://git-scm.com/docs/git-add
+
++ git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
+	  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​]
+
 
 ## git add      
     该命令创建一个空的Git存储库, 本质上是一个 .git 目录，其中包含 objects、refs/heads、refs/tags`和模板文件的子目录。

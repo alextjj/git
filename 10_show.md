@@ -1,7 +1,7 @@
 # git show命令:
-    官网Url: https://git-scm.com/docs/git-show
-    中文Url: http://www.1ju.org/git/git-show
-    git show [options] <object>…​
++ 官方文档: https://git-scm.com/docs/git-show
++ 中文Url: http://www.1ju.org/git/git-show
++ git show [ options ] < object >…​
 
 ## 描述
     顯示一個或多個對象(blobs，樹，標籤和提交)。

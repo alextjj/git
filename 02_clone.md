@@ -1,5 +1,8 @@
-# [git clone 克隆仓库:](https://git-scm.com/docs/git-clone) 
-       git clone [--template=<template_directory>]
+# git clone 克隆仓库:
++ 官方文档: https://git-scm.com/docs/git-clone
++ 腾讯文档: https://cloud.tencent.com/developer/section/1138669
+
++ git clone [--template=<template_directory>]
 	  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
 	  [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>]
 	  [--dissociate] [--separate-git-dir <git dir>]

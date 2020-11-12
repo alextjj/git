@@ -1,8 +1,7 @@
 # git log 日志:  
-官网Url: https://git-scm.com/docs/git-log   
-腾讯云Url: https://cloud.tencent.com/developer/section/1138655
-
-    git log [<options>] [<revision range>] [[--] <path>…​]
++ 官方文档: https://git-scm.com/docs/git-log 
++ 腾讯云Url: https://cloud.tencent.com/developer/section/1138655
++ git log [< options >] [< revision range >] [ [ -- ] < path >…​]
 
 ## git log 使用实例:
     git log
@@ -66,22 +65,18 @@
 
 
 
-----------------------------------------------------------------------------------------------------------
+---------------
 
 
 
 # git relog 所有操作记录: 
-官网:   https://git-scm.com/docs/git-relog    
-腾讯云: https://cloud.tencent.com/developer/section/1138645
-
-    git reflog <subcommand> <options>
-    git reflog [show] [log-options] [<ref>]
-    git reflog expire [--expire=<time>] [--expire-unreachable=<time>]
-	    [--rewrite] [--updateref] [--stale-fix]
-	    [--dry-run | -n] [--verbose] [--all [--single-worktree] | <refs>…​]
-    git reflog delete [--rewrite] [--updateref]
-	    [--dry-run | -n] [--verbose] ref@{specifier}…​
-    git reflog exists <ref>
++ 官方文档:  https://git-scm.com/docs/git-relog    
++ 腾讯云Url: https://cloud.tencent.com/developer/section/1138645
++ git reflog <subcommand> <options>
++ git reflog [show] [log-options] [<ref>]
++ git reflog expire [--expire=<time>] [--expire-unreachable=<time>]    [--rewrite] [--updateref] [--stale-fix]    [--dry-run | -n] [--verbose] [--all [--single-worktree] | <refs>…​]
++ git reflog delete [--rewrite] [--updateref]    [--dry-run | -n] [--verbose] ref@{specifier}…​
++ git reflog exists <ref>
 
 
 ## git relog    

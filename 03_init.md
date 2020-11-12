@@ -1,4 +1,9 @@
-# [git init  初始仓库:](https://git-scm.com/docs/git-init)
+# git init  初始仓库:
++ 官方文档: https://git-scm.com/docs/git-init
++ git init [-q | --quiet] [--bare] [--template=<template_directory>]
+	  [--separate-git-dir <git dir>] [--object-format=<format>]
+	  [-b <branch-name> | --initial-branch=<branch-name>]
+	  [--shared[=<permissions>]] [directory]
 
 ## git init
     * 主要用来初始化一个空的git本地仓库。执行完上面的命令，当前目录下会自动生成.git隐藏文件夹，该隐藏文件夹就是git版本库

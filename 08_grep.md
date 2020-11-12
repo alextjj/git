@@ -1,5 +1,6 @@
-# [git grep  查找匹配的行:](https://git-scm.com/docs/git-grep)
-    git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regexp]
+# git grep  查找匹配的行:
++ 官方文档: https://git-scm.com/docs/git-grep
++ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regexp]
 	   [-v | --invert-match] [-h|-H] [--full-name]
 	   [-E | --extended-regexp] [-G | --basic-regexp]
 	   [-P | --perl-regexp]

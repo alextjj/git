@@ -1,7 +1,7 @@
 # [git status命令:]
-    官网Url: https://git-scm.com/docs/git-status
-    中文Url: http://www.1ju.org/git/git-status
-    git status [<options>…​] [--] [<pathspec>…​]
++ 官方文档: https://git-scm.com/docs/git-status
++ 中文Url: http://www.1ju.org/git/git-status
++ git status [< options >…​] [ -- ] [< pathspec >…​]
 
 ## git status:
     git status命令用於顯示工作目錄和暫存區的狀態。

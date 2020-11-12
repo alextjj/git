@@ -1,4 +1,6 @@
-# git基础命令
+# git基础命令:  
++ 官方文档: https://git-scm.com/docs/git
++ 腾讯文档: https://cloud.tencent.com/developer/doc/1096 
 
 ## git --version
     * 显示git程序的版本号

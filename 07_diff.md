@@ -1,10 +1,11 @@
-# [git diff  差异对比:](https://git-scm.com/docs/git-diff)
-    git diff [<options>] [<commit>] [--] [<path>…​]
-    git diff [<options>] --cached [<commit>] [--] [<path>…​]
-    git diff [<options>] <commit> [<commit>…​] <commit> [--] [<path>…​]
-    git diff [<options>] <commit>…​<commit> [--] [<path>…​]
-    git diff [<options>] <blob> <blob>
-    git diff [<options>] --no-index [--] <path> <path>
+# git diff  差异对比
++ 官方文档: https://git-scm.com/docs/git-diff
++ git diff [< options >] [< commit >] [--] [< path >…​]
++ git diff [< options >] --cached [< commit >] [--] [< path >…​]
++ git diff [< options >] < commit > [< commit >…​] < commit > [--] [< path >…​]
++ git diff [< options >] < commit >…​< commit > [--] [< path >…​]
++ git diff [< options >] < blob > < blob >
++ git diff [< options >] --no-index [--] < path > < path >
    
 
 ## git diff
@@ -20,14 +21,19 @@
 ## git diff 使用实例:
     git diff 不加参数即默认比较工作区与暂存区
         比较工作区与暂存区
+
     git diff --cached  [<path>...] 
         比较暂存区与最新本地版本库（本地库中最近一次commit的内容）
+
     git diff HEAD [<path>...]  如果HEAD指向的是master分支，那么HEAD还可以换成master
         比较工作区与最新本地版本库
+
     git diff commit-id  [<path>...]
-        比较工作区与指定commit-id的差异    
+        比较工作区与指定commit-id的差异   
+
     git diff --cached [<commit-id>] [<path>...] 
         比较暂存区与指定commit-id的差异
+        
     git diff [<commit-id>] [<commit-id>]
         比较两个commit-id之间的差异
 

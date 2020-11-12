@@ -20,5 +20,6 @@
         + 2.2.4   git commit --amend 也叫追加提交， 将本次的修改提交的提交到上一次的commmit中，不会新增 commit id
         + 2.2.5   git commit --allow-empty-message -m '' 不带message的commit <非正常操作  慎用>
 
++ 3: 添加远程仓库
         
 
